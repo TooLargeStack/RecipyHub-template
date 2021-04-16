@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: ../
+      dockerfile: Dockerfile.prod
+    container_name: template
+    env_file:
+      - ../.env
+    networks:
+      - template
+    volumes:
+      - ../:/usr/src/app
+    tty: true
+    ports:
+      - '${PORT}:${PORT}'
+
+networks:
+  template:
+    driver: bridge
