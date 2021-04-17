@@ -19,3 +19,5 @@ To start using this template, please remove assets folder and modify the files t
     - Check mark the option **Require pull request reviews before merging** if you wanna reviews on your PRs (generally used only on main branch)
     - Check mark the option **Require status checks to pass before merging** if you had a workflow settled with github actions
     - Check mark **Require signed commits** (optional) only if you want to ensure Signed commits
+
+Docs: https://www.notion.so/RecipyHub-db3ed6d6d9cf49958ecb8faf6cafd66a
