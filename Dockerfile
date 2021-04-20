@@ -1,6 +1,6 @@
 FROM ubuntu:latest As development
 WORKDIR /usr/src/app
-COPY ../ .
+COPY . .
 
 CMD ["start","command"]
 
