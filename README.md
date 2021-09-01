@@ -1,4 +1,4 @@
-# RecipyHub template project
+# Template for starting a new project...
 
 Every service inside RecipyHub scope must be synchronized with this template
 
