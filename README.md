@@ -6,7 +6,6 @@ To start using this template, please remove assets folder and modify the files t
 
 ## CONTAINS
 
-- Setup to work with docker & docker-compose
 - Setup to work with github actions (contains one workflow example)
 - Template to create Issues & Pull Requests
 
